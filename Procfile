@@ -1,0 +1,1 @@
+worker: python poll_latest_tx_and_balance.py
