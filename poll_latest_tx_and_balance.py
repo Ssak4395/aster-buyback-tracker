@@ -31,10 +31,10 @@ PAGE_SIZE = int(os.getenv("PAGE_SIZE", "50"))
 COINGECKO_ID = os.getenv("COINGECKO_ID", "aster-2")
 
 # X (Twitter) credentials - prefer environment variables for safety
-X_API_KEY = "mW4biAt5MSCfMtZhtPAKsot0m"
-X_API_SECRET = "ztc1BgwodcNOU4fDsgd6n83h405J1aUfaQ7SBTXXkDZFS8yvjS"
-X_ACCESS_TOKEN = "1984487024724996096-tSdGGs1kmapjyVR6m2PKmJ6wLGsdRu"
-X_ACCESS_TOKEN_SECRET = "P2L2aPOMSJeiQfg9iOVrg93Yu5ijphskdtdPoHYs7wcQ2"
+X_API_KEY = os.getenv("X_API_KEY", "")
+X_API_SECRET = os.getenv("X_API_SECRET", "")
+X_ACCESS_TOKEN = os.getenv("X_ACCESS_TOKEN", "")
+X_ACCESS_TOKEN_SECRET = os.getenv("X_ACCESS_TOKEN_SECRET", "")
 # ----------------------------------------
 
 # checksum addresses using Web3 standard helper
