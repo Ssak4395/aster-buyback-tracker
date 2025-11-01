@@ -1,4 +1,6 @@
 setuptools>=65.0.0
+wheel>=0.38.0
+Flask>=2.2.0
 web3==6.2.0
 requests==2.31.0
 tweepy==4.15.0
